@@ -1,0 +1,253 @@
+.navbar {
+  margin-bottom: 0 !important;
+}
+.navbar-header {
+  max-height: 50px;
+}
+#navigation .navbar-brand {
+  height: 50px;
+}
+
+#navigation .nav >li >a {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-family: serif;
+  font-size: 14px;
+}
+#navigation .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+#navbar3 ul li a {
+  padding: 25px 18px;
+}
+#rift {
+  background-color: #222;
+  font-family: serif;
+  color: #9d9d9d;
+}
+#rift li a {
+  color: white;
+}
+#rift > li > a:hover, .dropdown-menu > li > a:focus {
+            background-image:none !important;
+ }
+#rift > li > a:hover, .dropdown-menu > li > a:focus {
+            background-color:black;
+ }
+#container {
+  position: relative;
+}
+.container-fluid {
+  background-color: #111320;
+}
+#back-btn-region {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 10px;
+}
+#back-btn-region a {
+  border: 1px solid #5B4C2C;
+  padding: 10px 10px;
+    color: #BD8F39;
+}
+#back-btn-region a:hover {
+  text-decoration: none;
+  background-color: #877A5F;
+  color:black;
+}
+#champ-logo {
+  height: 60px;
+  margin: 0 48%;
+  display: inline-block;
+}
+.champ1 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  color: #BD8F39;
+  font-family: serif, 'sans-serif';
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.regions-cap {
+  text-align: center;
+  margin: 0;
+  width: auto;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: serif;
+  color: #BD8F39;
+  letter-spacing: 0.2em;
+  font-size: 30px;
+  background-color: rgba(3,6,20,0.9);
+}
+.regions-explore {
+  text-align: center;
+  font-family: serif;
+  color: #BD8F39;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 380px;
+  line-height: 50px;
+  background-color:rgba(17,19,32,0.9);
+}
+.col-md-10 {
+  padding: 0 !important;
+} 
+.region-content {
+  font-size: 18px;
+  font-family: serif, 'Times new roman';
+  color:#BCA577;
+}
+/*Champions*/
+figcaption h3, figcaption p{
+  margin: 0;
+  text-align: center;
+  background-image: url('images/shen.jpg');
+  color: #BD8F39;
+  font-family: serif, 'sans-serif';
+  width: 100%;
+}
+figure {
+  border: 1px solid rgb(103, 71, 31);
+}
+figcaption h3 {
+  font-size: 16px;
+}
+figcaption p {
+  font-size: 12px;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+/*footer*/
+.footer {
+  background: #171720;
+  height: auto;
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%;
+}
+.footer p {
+  margin: 0;
+}
+.footer h3 {
+  border-bottom: 1px solid #BAC1C8;
+  color: #BEB598;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 10px 0 10px;
+  text-transform: uppercase;
+}
+.footer a {
+  color: #78828D
+}
+.bg-gray {
+  background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+  box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer-bottom {
+  background: #171720;
+  border-top: 1px solid #383842  ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+  padding-top: 6px;
+}
+
+
+.fbicon {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: lightgrey;
+}
+.twittericon {
+margin-top: 10px;
+  margin-left: 0;
+  margin-right: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: lightgrey;
+}
+.linkedin {
+margin-top: 10px;
+  margin-left: 0;
+  margin-right: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 80%;
+  background-color: lightgrey;
+}
+/**** Hover ****/
+div a .fbicon:hover {
+  background-color: #3b5998;
+}
+div a .twittericon:hover {
+  background-color: #0084b4;
+}
+
+div a .linkedin:hover {
+  background-color: #007bb6;
+}
+@media screen and (min-width: 300px) {
+    body  .home-cap, .home-cap2, .p-content{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    body  .home-cap, .home-cap2{
+        font-size: 2em;
+    }
+}
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body  .home-cap, .home-cap2{
+        font-size: 1.5em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body  .home-cap, .home-cap2{
+        font-size: 2em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body  .home-cap, .home-cap2{
+        font-size: 2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body, .home-cap, .home-cap2 {
+        font-size: 4em;
+    }
+}
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
