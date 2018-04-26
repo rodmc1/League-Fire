@@ -7,6 +7,11 @@ body {
 #navigation .navbar-brand {
   height: 50px;
 }
+.mid-img-a {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #navigation .nav >li >a {
   padding-top: 18px;
