@@ -15,11 +15,11 @@
     margin: 0 auto;
     max-width: 100%;
 }*/
+body {
+  overflow-x: hidden !important;
+}
 .navbar {
   margin-bottom: 0 !important;
-}
-.navbar-header {
-  max-height: 50px;
 }
 #navigation .navbar-brand {
   height: 50px;
