@@ -132,6 +132,11 @@ td {
   padding-top: 6px;
 }
 
+.mid-img-a {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .fbicon {
   margin-top: 10px;
