@@ -1,9 +1,6 @@
 .navbar {
   margin-bottom: 0 !important;
 }
-.navbar-header {
-  max-height: 50px;
-}
 #navigation .navbar-brand {
   height: 50px;
 }
