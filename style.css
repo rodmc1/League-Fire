@@ -184,7 +184,7 @@ div a .linkedin:hover {
 
 @media screen and (max-width: 337px) {
 .home-cap, .home-cap2{
-        font-size: 2em;
+        font-size: 1.7em;
     }
 }
 
@@ -223,4 +223,25 @@ h2 {
 }
 .img-c {
   max-height: 350px;
+}
+
+
+@media (max-width: 450px) {
+  .home-cap {
+    font-size: 1.1em !important;
+  }
+  .img-c {
+    height: 135px !important;
+  }
+  .up-1 {
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
+  }
+  .up-2 {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.1em !important;
+  }
+  .up-3 {
+    margin-top: 0.1em !important;
+  }
 }
