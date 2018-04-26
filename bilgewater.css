@@ -1,8 +1,13 @@
+body {
+  overflow-x: hidden !important;
+}
+.mid-img-a {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .navbar {
   margin-bottom: 0 !important;
-}
-.navbar-header {
-  max-height: 50px;
 }
 #navigation .navbar-brand {
   height: 50px;
