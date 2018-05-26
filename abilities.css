@@ -163,9 +163,12 @@ div a .linkedin:hover {
   background-color: #007bb6;
 }
 @media screen and (min-width: 300px) {
-.home-cap, .home-cap2, .p-content{
+  .home-cap, .home-cap2, .p-content {
         font-size: 1em;
-    }
+  }
+  #fire {
+    left:195px
+  }
 }
 
 @media screen and (max-width: 337px) {
