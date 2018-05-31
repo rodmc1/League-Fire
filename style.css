@@ -180,9 +180,6 @@ div a .linkedin:hover {
 .home-cap, .home-cap2, .p-content{
         font-size: 1em;
     }
-  .fire1 {
-    left: 185px !important;
-  }
 }
 
 @media screen and (max-width: 337px) {
