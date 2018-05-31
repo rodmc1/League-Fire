@@ -218,6 +218,9 @@ div a .linkedin:hover {
 .home-cap, .home-cap2, .footer-bottom{
         font-size: 2em;
     }
+  .fire1 {
+    left: 185px !important;
+  }
 }
 
 /* xs < 768 */
@@ -255,4 +258,16 @@ h2 {
 }
 p, .footer-bottom {
   font-size: 2vmin;
+}
+.fire1 {
+  position: absolute;
+  height: 42px;
+  left:165px;
+  top: 1px;
+}
+.navbar-brand {
+  margin-top: 5px;
+  position: relative;
+  font-size: 30px !important;
+  font-family: serif;
 }
