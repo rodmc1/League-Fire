@@ -188,7 +188,7 @@ div a .linkedin:hover {
     }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 450px) {
     body  .home-cap, .home-cap2{
         font-size: 2em;
     }
