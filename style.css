@@ -180,12 +180,18 @@ div a .linkedin:hover {
 .home-cap, .home-cap2, .p-content{
         font-size: 1em;
     }
+  .fire1 {
+    left: 175px !important;
+  }
 }
 
 @media screen and (max-width: 337px) {
-.home-cap, .home-cap2{
-        font-size: 1.7em;
-    }
+  .home-cap, .home-cap2{
+     font-size: 1.7em;
+   }
+  .fire1 {
+    left: 175px !important;
+  }
 }
 
 /* xs < 768 */
@@ -244,4 +250,21 @@ h2 {
   .up-3 {
     margin-top: 0.1em !important;
   }
+  .fire1 {
+    left: 175px !important;
+  }
+}
+
+
+.fire1 {
+  position: absolute;
+  height: 42px;
+  left:165px;
+  top: 1px;
+}
+.navbar-brand {
+  margin-top: 5px;
+  position: relative;
+  font-size: 30px !important;
+  font-family: serif;
 }
