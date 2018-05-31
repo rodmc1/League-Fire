@@ -168,12 +168,18 @@ div a .linkedin:hover {
     body  .home-cap, .home-cap2, .p-content{
         font-size: 1em;
     }
+  .fire1 {
+    left: 185px !important;
+  }
 }
 
 @media screen and (max-width: 337px) {
     body  .home-cap, .home-cap2{
         font-size: 2em;
     }
+  .fire1 {
+    left: 185px !important;
+  }
 }
 
 /* xs < 768 */
@@ -211,4 +217,16 @@ h2 {
 }
 p {
   font-size: 2vmin;
+}
+.fire1 {
+  position: absolute;
+  height: 42px;
+  left:165px;
+  top: 1px;
+}
+.navbar-brand {
+  margin-top: 5px;
+  position: relative;
+  font-size: 30px !important;
+  font-family: serif;
 }
