@@ -166,12 +166,9 @@ div a .linkedin:hover {
   .home-cap, .home-cap2, .p-content {
         font-size: 1em;
   }
-  #fire {
-    left:195px
-  }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 450px) {
  .home-cap, .home-cap2{
         font-size: 2em;
     }
