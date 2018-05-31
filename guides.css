@@ -180,3 +180,37 @@ div a .twittericon:hover {
 div a .linkedin:hover {
   background-color: #007bb6;
 }
+.fire1 {
+  position: absolute;
+  height: 42px;
+  left:165px;
+  top: 1px;
+}
+.navbar-brand {
+  margin-top: 5px;
+  position: relative;
+  font-size: 30px !important;
+  font-family: serif;
+}
+@media (max-width: 450px) {
+  .home-cap {
+    font-size: 1.1em !important;
+  }
+  .img-c {
+    height: 135px !important;
+  }
+  .up-1 {
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
+  }
+  .up-2 {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.1em !important;
+  }
+  .up-3 {
+    margin-top: 0.1em !important;
+  }
+  .fire1 {
+    left: 185px !important;
+  }
+}
